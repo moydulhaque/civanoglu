@@ -22,12 +22,12 @@ class Property extends Model
         return $this->hasMany(Media::class, 'property_id');
     }
 
-    public function lira_to_usd($lira) {
-        $get = Http::get('https://freecurrencyapi.net/api/v2/latest?apikey=76c89170-6178-11ec-98f1-5f7ce0abde0a&base_currency=TRY');
+    // public function lira_to_usd($lira) {
+    //     $get = Http::get('https://freecurrencyapi.net/api/v2/latest?apikey=76c89170-6178-11ec-98f1-5f7ce0abde0a&base_currency=TRY');
 
-        if($get->successful()) {
-            $usd = $lira * $get->json()['data']['USD'];
-            return $usd;
-        }
-    }
+    //     if($get->successful()) {
+    //         $usd = $lira * $get->json()['data']['USD'];
+    //         return $usd;
+    //     }
+    // }
 }

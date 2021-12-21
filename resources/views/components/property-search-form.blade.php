@@ -25,9 +25,9 @@
             <label for="type">Type</label>
             <select id="type" name="type" class="border-0 focus:ring-0">
                 <option value="">Type</option>
-                <option {{request('type') == '0' ? 'selected="selected"' : ''}} value="0">Land</option>
-                <option {{request('type') == '1' ? 'selected="selected"' : ''}} value="1">Apartment</option>
-                <option {{request('type') == '2' ? 'selected="selected"' : ''}} value="2">Villa</option>
+                <option {{request('type') == 'land' ? 'selected="selected"' : ''}} value="land">Land</option>
+                <option {{request('type') == 'apartment' ? 'selected="selected"' : ''}} value="apartment">Apartment</option>
+                <option {{request('type') == 'villa' ? 'selected="selected"' : ''}} value="villa">Villa</option>
             </select>
         </div>
         <div class="py-3 self-center border-gray-500 border"></div>

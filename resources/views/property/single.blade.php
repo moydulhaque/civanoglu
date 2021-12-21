@@ -3,7 +3,7 @@
     <div class="shadow-md border-2 border-gray-300 py-2 bg-white mt-28">
         <div class="container mx-auto">
             <ul class="flex items-center">
-                <li><a class="text-base text-red-800" href="#">Property</a></li>
+                <li><a class="text-base text-red-800" href="{{route('home')}}">Property</a></li>
                 <li class="mx-3"><i class="fa fa-angle-right"></i></li>
                 <li>{{$property->name}}</li>
             </ul>
@@ -16,7 +16,7 @@
             <div class="flex justify-between">
                 <div class="w-8/12">
                     <h2 class="text-3xl text-gray-600">{{$property->name}}</h2>
-                    <h3 class="text-lg mt-2">Price: <span class="text-red-800">{{ number_format($property->price, 2, ',', ',') }} TL</span></h3>
+                    <h3 class="text-lg mt-2">Price: <span class="text-red-800">{{ number_format($property->price, 0) }} TL</span></h3>
                 </div>
                 <div class="w-3/12">
                     <ul class="flex justify-end -mr-2">
