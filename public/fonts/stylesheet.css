@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Studio Sans';
+    src: url('StudioSans-Bold.woff2') format('woff2'),
+        url('StudioSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Studio Sans';
+    src: url('StudioSans-Medium.woff2') format('woff2'),
+        url('StudioSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Studio Sans';
+    src: url('StudioSans-ExtraLight.woff2') format('woff2'),
+        url('StudioSans-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Studio Sans';
+    src: url('StudioSans-Light.woff2') format('woff2'),
+        url('StudioSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Studio Sans';
+    src: url('StudioSans-ExtraBold.woff2') format('woff2'),
+        url('StudioSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Studio Sans';
+    src: url('StudioSans-Regular.woff2') format('woff2'),
+        url('StudioSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: url('LiberationSerif.woff2') format('woff2'),
+        url('LiberationSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: url('LiberationSerif-Bold.woff2') format('woff2'),
+        url('LiberationSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
