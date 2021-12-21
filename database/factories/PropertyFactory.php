@@ -19,7 +19,7 @@ class PropertyFactory extends Factory
             'featured_image' => 'https://picsum.photos/1200/800',
             'location_id' => Location::all()->random()->id,
             'price' => rand(100000,500000),
-            'sale' => rand(0,1),
+            'sale' => $this->faker->randomElement(['buy', 'rent']),
             'type' => $this->faker->randomElement(['land', 'villa', 'apartment']),
             'bedrooms' => rand(1,6),
             'bathrooms' => rand(1,5),

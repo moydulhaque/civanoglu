@@ -4,8 +4,8 @@
             <label for="sale">Buy or Rent</label>
             <select id="sale" name="sale" class="border-0 focus:ring-0">
                 <option value="">Buy or Rent</option>
-                <option {{request('sale') == '1' ? 'selected="selected"' : ''}} value="1">Buy</option>
-                <option {{request('sale') == '0' ? 'selected="selected"' : ''}} value="0">Rent</option>
+                <option {{request('sale') == 'buy' ? 'selected="selected"' : ''}} value="buy">Buy</option>
+                <option {{request('sale') == 'rent' ? 'selected="selected"' : ''}} value="rent">Rent</option>
             </select>
         </div>
 
