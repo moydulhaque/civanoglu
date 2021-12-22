@@ -66,7 +66,7 @@ class PropertyController extends Controller
 
 
 
-        $latest_properties = $latest_properties->paginate(12);
+        $latest_properties = $latest_properties->paginate(9);
 
 
         return view('property.index', ['latest_properties' => $latest_properties, 'locations' => $locations]);
