@@ -1,7 +1,7 @@
 <div class="{{$width}} px-2  relative rounded-md mb-6">
     <div class="shadow-lg">
         <a href=""
-           class="absolute left-3 w-9 h-9 leading-10 self-center text-base top-3 bg-black text-white bg-opacity-25 text-center hover:bg-yellow-500 hover:text-white duration-200 rounded-full text-base"><i
+           class="absolute left-3 w-9 h-9 leading-10 self-center top-3 bg-black text-white bg-opacity-25 text-center hover:bg-yellow-500 hover:text-white duration-200 rounded-full text-base"><i
                 class="fa fa-heart-o"></i></a>
         <div class="py-20 bg-center" style="background-image: url('/img/property.jpg')"></div>
         <div class="p-3">
