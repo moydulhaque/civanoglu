@@ -6,7 +6,7 @@
     <div class="w-full">
         <ul class="flex justify-center">
             <li><a class="inline-block p-4 text-white" href="{{route('properties')}}?type=land">Land</a></li>
-            <li><a class="inline-block p-4 text-white" href="{{route('properties')}}?type=villa">Villa</a></li>
+            <li><a class="inline-block p-4 text-white" href="{{route('properties')}}?type=villa">{{__('Villa')}}</a></li>
             <li><a class="inline-block p-4 text-white" href="{{route('properties')}}?type=apartment">Apartment</a></li>
             <li><a class="inline-block p-4 text-white" href="{{route('page', 'about-us')}}">About Us</a></li>
             <li><a class="inline-block p-4 text-white" href="{{route('page', 'contact-us')}}">Contact Us</a></li>
@@ -14,7 +14,7 @@
     </div>
    
     <div class="min-w-max text-3xl">
-        <a href="">🇺🇸</a>
-        <a href="">🇹🇷</a>
+        <a href="{{ LaravelLocalization::getLocalizedURL('en') }}">🇺🇸</a>
+        <a href="{{ LaravelLocalization::getLocalizedURL('tr') }}">🇹🇷</a>
     </div>
 </div>
