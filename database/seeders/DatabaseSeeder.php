@@ -20,13 +20,13 @@ class DatabaseSeeder extends Seeder
         $page = new Page();
         $page->name = 'Contact Us';
         $page->slug = 'contact-us';
-        $page->content = 'lorem';
+        $page->content = 'This is Contact Page.';
         $page->save();
 
         $page = new Page();
         $page->name = 'About Us';
         $page->slug = 'about-us';
-        $page->content = 'lorem';
+        $page->content = 'This is About Page.';
         $page->save();
 
         $user = new User();

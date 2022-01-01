@@ -16,25 +16,30 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
 
-                    <x-nav-link :href="route('dashboard-properties')" :active="request()->routeIs('dashboard-properties')">
+                    <x-nav-link :href="route('dashboard-property.index')" :active="request()->routeIs('dashboard-property.index')">
                         {{ __('Properties') }}
                     </x-nav-link>
 
-                    <x-nav-link :href="route('dashboard-locations')" :active="request()->routeIs('dashboard-locations')">
+                    <x-nav-link :href="route('dashboard-location.index')" :active="request()->routeIs('dashboard-location.index')">
                         {{ __('Locations') }}
                     </x-nav-link>
 
-                    <x-nav-link :href="route('dashboard-pages')" :active="request()->routeIs('dashboard-pages')">
+                    <x-nav-link :href="route('dashboard-page.index')" :active="request()->routeIs('dashboard-page.index')">
                         {{ __('Pages') }}
                     </x-nav-link>
 
-                    <x-nav-link :href="route('dashboard-users')" :active="request()->routeIs('dashboard-users')">
+                    <x-nav-link :href="route('dashboard-user.index')" :active="request()->routeIs('dashboard-user.index')">
                         {{ __('Users') }}
                     </x-nav-link>
 
                     <x-nav-link :href="route('dashboard-messages')" :active="request()->routeIs('dashboard-messages')">
                         {{ __('Messages') }}
                     </x-nav-link>
+
+                    <div class="min-w-max items-center flex">
+                        <a class="px-6 py-2 rounded text-white bg-green-500" href="{{route('home')}}" target="_blank">Frontend</a>
+                    </div>
+                    
                 </div>
             </div>
 

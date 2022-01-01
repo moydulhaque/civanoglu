@@ -13,6 +13,11 @@
         </ul>
     </div>
    
+    <div class="min-w-max mr-10 text-1xl">
+        <a class="inline-block mr-5 text-white" href="{{route('currency-change', 'usd')}}">$</a>
+        <a class="inline-block mr-5 text-white" href="{{route('currency-change', 'tl')}}">₺</a>
+    </div>
+    
     <div class="min-w-max text-3xl">
         <a href="{{ LaravelLocalization::getLocalizedURL('en') }}">🇺🇸</a>
         <a href="{{ LaravelLocalization::getLocalizedURL('tr') }}">🇹🇷</a>

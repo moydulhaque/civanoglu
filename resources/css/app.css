@@ -33,7 +33,8 @@
 
 
 body {
-
+    font-family: 'Studio Sans DEMO', sans-serif;
+    background-color: #fff;
 }
 
 
@@ -71,7 +72,6 @@ h1, h2, h3, h4, h5, h6 {
     @apply  w-full border-gray-400 block
 }
 
-#description h3 {}
 #description p, #description ul {margin-bottom: 20px}
 
 .general-header a {
@@ -133,4 +133,18 @@ h1, h2, h3, h4, h5, h6 {
 .vertical-search-form button {
     margin-top: 15px;
     min-width: 100%;
+}
+
+
+.civanoglu-label {
+    @apply uppercase text-sm text-gray-600 mb-2 cursor-pointer block
+}
+
+.civanoglu-input {
+    @apply border border-gray-400 w-full px-4 py-2 block
+}
+
+.required-text {
+    @apply text-red-500;
+    font-family: sans-serif;
 }
