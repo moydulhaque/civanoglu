@@ -2,8 +2,9 @@
     <div class="relative z-10 pt-48 pb-52 bg-cover bg-center" style="background-image: url(/img/header-bg.jpeg)">
         <div class="absolute h-full w-full bg-black opacity-50 top-0 left-0 z-10"></div>
         <div class="container relative z-20 text-white text-center text-2xl">
-            <h2 class="font-bold text-5xl mb-8">Find your best property,<br/> And live quality life.</h2>
+            <h2 class="font-bold text-3xl md:text-5xl mb-8">Find your best property,<br/> And live quality life.</h2>
             <p> We will try finding the best one for you. Please search using the form below. </p>
+            
         </div>
     </div>
 
@@ -84,7 +85,7 @@
              style="background-image: url('/img/header-bg.jpeg')">
             <div class="absolute w-full h-full rounded-xl opacity-50 bg-black left-0 top-0"></div>
             <div class="relative z-20">
-                <a href="" class="text-white text-xl flex flex-col justify-center items-center"><span class="border-2 border-white w-12 h-12 text-center pt-1 pl-1 leading-10 text-2xl hover:border-yellow-500 duration-200 rounded-full mb-2"><i class="fa fa-play"></i></span>Watch the video</a>
+                <a href="https://vimeo.com/1084537" data-lity class="text-white text-xl flex flex-col justify-center items-center"><i data-feather="youtube" class="youtb-icon"></i>Watch the video</a>
             </div>
         </div>
 

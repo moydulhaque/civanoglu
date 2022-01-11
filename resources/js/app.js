@@ -1,6 +1,9 @@
 require('./bootstrap');
+import lity from 'lity/dist/lity.min';
 
 
+import feather from 'feather-icons/dist/feather.min';
+feather.replace();
 import Alpine from 'alpinejs';
 
 window.Alpine = Alpine;
@@ -24,12 +27,19 @@ jQuery(window).scroll(function() {
 
 jQuery(document).ready(function ($) {
     $('.gallery-slider').slick({
-        asNavFor: '.thumbnail-slider'
+        asNavFor: '.thumbnail-slider',
+        //centerMode: true,
+        prevArrow: '<div class="left-icon"><img src="/img/chevron-left.svg"/></div>',
+        nextArrow: '<div class="right-icon"><img src="/img/chevron-right.svg"/></div>',
+        dots: false
     });
     $('.thumbnail-slider').slick({
-        slidesToShow: 10,
+        slidesToShow: 7,
         asNavFor: '.gallery-slider',
         centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        prevArrow: '<div class="left-icon"><img src="/img/chevron-left.svg"/></div>',
+        nextArrow: '<div class="right-icon"><img src="/img/chevron-right.svg"/></div>',
+        dots: false
     });
 });
