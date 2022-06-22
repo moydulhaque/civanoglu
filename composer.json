@@ -12,7 +12,7 @@
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
         "mcamara/laravel-localization": "^1.6",
-        "php-flasher/flasher-laravel": "^0.9.6"
+        "php-flasher/flasher-laravel": "^1.6.3"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
